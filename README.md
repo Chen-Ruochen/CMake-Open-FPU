@@ -9,7 +9,7 @@
 
 - 进入```STM32Cube_FW_F4_V1.27.1/Drivers/CMSIS/Lib```  
 将GCC文件夹复制到cmsis_dsp  
-## 修改Cmake文件  
+## 修改CMake文件  
 打开工程，打开```CMakeLists_template.txt```文件  
 找到如下代码：
 ```
@@ -32,5 +32,6 @@ include_directories(cmsis_dsp/Include)
 #Add dsp lib
 target_link_libraries(${PROJECT_NAME}.elf ${CMAKE_SOURCE_DIR}/cmsis_dsp/GCC/libarm_cortexM4lf_math.a)
 ```
-## 使用
+## 使用  
+右键使用STM32CubeMX更新CMake项目  
 添加```arm_math.h```头文件到代码中即可使用相关函数
