@@ -7,7 +7,7 @@
 - 进入```STM32Cube_FW_F4_V1.27.1/Drivers/CMSIS/DSP```  
 将Source文件夹及Include文件夹复制到cmsis_dsp  
 
-- 进入```STM32Cube_FW_F4_V1.27.1/Drivers/CMSIS/Lib```  
+- 进入```STM32Cube_FW_F4_V1.27.1/Drivers/CMSIS/DSP/Lib```  
 将GCC文件夹复制到cmsis_dsp  
 ## 修改CMake文件  
 打开工程，打开```CMakeLists_template.txt```文件  
